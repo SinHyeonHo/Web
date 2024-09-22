@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Week 3</title>
+        <style>
+            table {
+                border-collapse : collapse;
+            }
+            td, th{
+                text-align : center;
+                padding : 5px;
+                height : 15px;
+                width : 100px;
+            }
+            thead, tfoot{
+                background : skyblue;
+            }
+
+            #menubar{
+                background : skyblue;
+            }
+            #menubar ul {
+                margin : 0;
+                padding : 0;
+                width : 567px;
+            }
+            #menubar ul li {
+                display : inline-block;
+                list-style-type : none;
+                padding : 4px 15px;
+            }
+            #menubar ul li a {
+                color : white;
+                text-decoration : none;
+            }
+            #menubar ul li a:hover {
+                color : blue;
+            }
+            div{
+                background : antiquewhite;
+                width : 150px;
+                height : 150px;
+                border-style : solid;
+                border-color : gray;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Web Programming</h1>
+        </header>
+    <nav id="menubar">
+        <ul>
+            <li><a href="#Week1">Week 1</a></li>
+            <li><a href="#Week2">Week 2</a></li>
+            <li><a href="#Week3">Week 3</a></li>
+            <br>
+            <li><a href="#Week4">Week 4</a></li>
+        </ul>
+    </nav><hr><hr>
+    <main>
+        <section>
+            <b>웹에 관하여</b>
+            <details><summary>웹의 기본 목적</summary>웹의 기본 목적은 한 컴퓨터에서 만든 문서를 다른 컴퓨터에서 쉽게 볼 수 있게 하는 것이다.</details>
+            <details><summary>왜 Why?</summary>전 세계의 컴퓨터들을 인터넷으로 연결한 시스템을 WWW, 즉 웹이라고 부른다.</details>
+        </section>
+        <section>
+            <br>
+            <table border = "1">
+                <caption><b>Weekly Scuedule</b></caption>
+                <thead>
+                    <tr><th>Week</th><th>Data</th><th style="width : 300px">Contents</th></tr>
+                </thead>
+                <tbody>
+                    <tr><th>1</th><th>Sept. 2</th>
+                        <th>
+                            <ul>
+                                <li>강의개요</li>
+                                <li>웹의 개념과 구조</li>
+                                <li>Visual Studio Code</li>
+                            </ul>
+                        </th>
+                    </tr>
+                    <tr><th>2</th><th>Sept. 9</th><th>HTML Review</th></tr>
+                    <tr><th>3</th><th>Sept. 16</th><th>CSS Review</th></tr>
+                    <tr><th>4</th><th>Sept. 23</th><th>JavaScript</th></tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <ol>
+            <li><b><a id="Week1"></a>Week 1</b></li>
+            <section>
+                <ul>
+                    <li>강의개요</li>
+                    <li>웹의 개념과 역사</li>
+                    <li>Visual Stdio Code</li>
+                    <ol>
+                        <li>설치</li>
+                        <li>유용한 plug-ins</li>
+                            <ul>
+                                <li>Material Theme</li>
+                                <li>Prettier</li>
+                                <li>indent-rainbow</li>
+                                <li>Auto Rename Tag</li>
+                                <li>HTML CSS Support</li>
+                                <li>Live Server</li>
+                            </ul>
+                            <li>EMMET</li>
+                        </ol>
+                    </ul>
+                <br><hr>
+            </section>
+            <li><b><a id="Week2"></a>Week 2: HTML Review</b></li><br>
+            <section>
+                <b>Input Types</b><br>
+                <u>Check Box</u><br><br>
+                <form>
+                    <input type="checkbox" value="1">HTML5
+                    <input type="checkbox" value="2">CSS3
+                    <input type="checkbox" value="3">JavaScript
+                </form><br>
+                <u>Radio Button</u><br><br>
+                <form>
+                    <input type="radio" name="web" value="4">HTML5<br>
+                    <input type="radio" name="web" value="5">CSS3<br>
+                    <input type="radio" name="web" value="6">JavaScript<br>
+                </form><br>
+                <u>ComboBox</u><br><br>
+                <form>
+                    <select name="WebProgram">
+                        <option value="7" selected>HTML5</option>
+                        <option value="8">CSS3</option>
+                        <option value="9">JavaScript</option>
+                    </select>
+                </form>
+                <br><hr>
+            </section>
+            <section>
+                <li><b><a id="Week3"></a>Week 3: CSS Review</b></li>
+                <br>
+                <ul>
+                    <li>Selector: *, tag, #id, .class, 가상클래스, attribute</li>
+                    <li>Properties: background-color, background, color, 
+                        border-color, font-size, text-align, text-decoration, font-family, ...</li>
+                    <li>Box Model</li>
+                    <ul>
+                        <li>block 요소, inline 요소</li>
+                        <li>margin, padding, border, height, width</li>
+                    </ul>
+                    <li>display: block, inline, inline-block</li>
+                    <li>position: absolute, relative, fixed, float</li>
+                </ul>
+                <br>
+                <div style="background : antiquewhite">&nbsp</div>
+                <br><hr>
+            </section>
+            <selection>
+                <li><b><a id="Week4"></a>Week 4:</b></li>
+            </selection>
+
+        </ol>
+    </main>
+    <br><br><hr>
+    <footer>
+        Copyright &copy; 2024 by Sung-Dong All Rights Reserved
+    </footer>
+    </body>
+</html>
